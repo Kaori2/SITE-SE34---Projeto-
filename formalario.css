@@ -1,0 +1,127 @@
+.caixa_formulario1 {
+    background-image: url(imgs/cadastro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.caixa_formulario1 h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-right: 10%;
+}
+
+.formulario1 {
+    display: flex;
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.caixa_formulario1 p{
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formulario1 button {
+    background: #ffffff;
+    color: #000000;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    align-self: center;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-top: none;
+    margin-bottom: 100px;
+}
+
+.formulario1 input {
+    margin-top: 7%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.formulario1 span {
+    margin-top: 7%;
+    font-size: 19px;
+    font-weight: 545;
+}
+
+
+
+.caixa_formulario {
+    background: rgb(255, 255, 2550, 0.3);
+    width: 500px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 4px;
+}
+
+.caixa_formulario h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 0;
+    flex-direction: column;
+    align-items: start;
+    width: 200px;
+}
+
+.formulario {
+    display: flex;
+    margin-left: 3%;
+    flex-direction: column;
+    width: 200px;
+}
+
+.formulario button {
+    margin-top: 20px;
+    background: #ffffff;
+    color: #000000;
+    padding: 5px 20px;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.formulario input {
+    margin-top: 7%;
+    padding: 10px 20px;
+    text-align: left;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* border-radius: 10px; */
+    border: none;
+}
+
